@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* style begins*/
+body {
+  font-family: "Monterrat", sans-serif;
+  background-image: url("./img/login.jpg");
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.342);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-right: auto;
+  margin-left: 23px;
+  margin-bottom: 70px;
+  margin-top: 70px;
+  max-width: 500px;
+}
+
+h2 {
+  text-align: left;
+  font-size: 20px;
+  height: 10px;
+  margin-left: 37px;
+}
+
+form {
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  row-gap: 20px;
+  max-width: 500px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  height: 40px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+/*the input filed*/
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+img,
+input {
+  display: block;
+}
+/* the input filed length */
+input {
+  width: 100%;
+  padding: 10px 0;
+  cursor: pointer;
+  font-family: Montserrat, sans-serif;
+}
+/* the hide eye-password set to rlative to it can float */
+.pass {
+  position: relative;
+}
+/* the hide eye-image set */
+.pass img {
+  position: absolute;
+  top: 41px;
+  right: 10px;
+}
+/* set the eye-img to top */
+.passpass {
+  margin-top: 15px;
+}
+/* google icon settings */
+img {
+  height: 23px;
+  width: 23px;
+}
+/*the regiter with google button*/
+button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  padding: 10px 0;
+  background-color: transparent;
+  color: #6da01e;
+  border-radius: 5px;
+  border: 1px solid #6da01e;
+  cursor: pointer;
+  font-family: Montserrat, sans-serif;
+  height: 35px;
+}
+/* the register button */
+input[type="submit"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6da01e;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #6da01e;
+}
+
+p {
+  text-align: center;
+}
+/* the login link */
+.login-link a {
+  color: #6da01e;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+/* the end of css */
+
+/* Media querry display */
+@media screen and (max-width: 400px) {
+  .form {
+    padding: 20px 10px;
+    max-width: 100%;
+    margin: 10px;
+  }
+}
